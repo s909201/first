@@ -7,3 +7,6 @@
 - halt.py - doing halt by RPi3 hardware button
 
 - for-shutdown.sh -  for put halt.py to autorun after RPI3 booting finish
+
+- LAMP_install.sh - for install Apache, PHP, MySQL
+
