@@ -16,7 +16,7 @@ cat ./check_apache.html
 sudo apt-get install -y php
 sudo apt-get install -y libapache2-mod-php
 sudo rm /var/www/html/index.html
-$ echo "<?php phpinfo ();?>" > /var/www/html/index.php
+echo "<?php phpinfo ();?>" > /var/www/html/index.php
 
 ### MySQL
 sudo apt install -y mysql-server php-mysql
