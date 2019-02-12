@@ -19,9 +19,9 @@ sudo rm /var/www/html/index.html
 echo "<?php phpinfo ();?>" > /var/www/html/index.php
 
 ### MySQL
-sudo apt install -y mysql-server php-mysql
-sudo apt install -y phpmyadmin
-sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
+#sudo apt install -y mysql-server php-mysql
+#sudo apt install -y phpmyadmin
+#sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 
 exit 0
 

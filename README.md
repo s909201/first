@@ -13,3 +13,6 @@
 - Tornado_install : install pip & tornado
 
 - Wifi_setting : setting wifi dongle
+
+### Modify
+- 20190212 : modify LAMP_install.sh content, mark the script about MySQL installation
