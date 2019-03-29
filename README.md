@@ -14,5 +14,8 @@
 
 - Wifi_setting : setting wifi dongle
 
+- root-ca.crt : for Amazon IoT test
+
 ### Modify
 - 20190212 : modify LAMP_install.sh content, mark the script about MySQL installation
+- 20190329 : add root-ca.crt
