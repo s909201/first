@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 import subprocess
 
 # Define GPIO Pin Number
-gpioPin=21
+gpioPin=12
 
 # Define GPIO Function
 GPIO.setmode(GPIO.BCM)
