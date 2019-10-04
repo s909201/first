@@ -16,7 +16,9 @@ case "$1" in
     ;;
   stop)
     echo "Stopping listening-for-shutdown"
-     sudo killall python
+    sudo python /usr/local/bin/WelcomeLCD.py "POWER_OFF" &
+    sleep 1
+    sudo killall python
     ;;
   *)
     echo "Usage: service listening-for-shutdown {start|stop}"
