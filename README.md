@@ -16,6 +16,10 @@
 
 - root-ca.crt : for Amazon IoT test
 
+- WelcomeLCD.py : Display IP address on 16x2 LCD
+
 ### Modify
 - 20190212 : modify LAMP_install.sh content, mark the script about MySQL installation
 - 20190329 : add root-ca.crt
+- 20200607 : add WelcomeLCD.py
+
